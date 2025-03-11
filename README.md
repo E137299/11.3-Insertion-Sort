@@ -1,4 +1,4 @@
-# 11.3  Implementing Insertion Sort (Iterative & Recursive)**
+# 11.3  Implementing Insertion Sort (Iterative & Recursive)
 
 **Objective:**
 Students will write a Java program to implement the Insertion Sort algorithm using both iterative and recursive approaches and apply it to sort an array of integers.
