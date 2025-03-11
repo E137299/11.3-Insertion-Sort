@@ -1,25 +1,19 @@
-# 11.3-Insertion-Sort
-
-**Java Programming Assignment: Implementing Insertion Sort**
+# 11.3  Implementing Insertion Sort (Iterative & Recursive)**
 
 **Objective:**
-Students will write a Java program to implement the Insertion Sort algorithm and apply it to sort an array of integers.
+Students will write a Java program to implement the Insertion Sort algorithm using both iterative and recursive approaches and apply it to sort an array of integers.
 
 **Instructions:**
-1. Write a Java program that implements the **insertionSort** method to sort an array in ascending order.
+1. Write a Java program that implements two versions of the **insertionSort** method:
+   - One using **for and while loops** (iterative approach).
+   - One using **recursion**.
 2. The program should prompt the user to enter the number of elements in the array and then the elements themselves.
-3. Display the sorted array after applying the insertion sort algorithm.
+3. Display the sorted array after applying both insertion sort methods.
 4. Ensure the program follows best coding practices, including comments and meaningful variable names.
 
 **Requirements:**
-- The **insertionSort** method should be implemented using a loop-based approach.
-- The method should take an integer array as a parameter and modify it in place.
+- Implement two sorting methods:
+  - `insertionSortIterative(int[] arr)`: Uses loops.
+  - `insertionSortRecursive(int[] arr, int n)`: Uses recursion.
 - Display both the original and sorted arrays.
-
-**Bonus (Optional Enhancements):**
-- Modify the program to sort in **descending order**.
-- Allow the user to choose between **ascending or descending order** before sorting.
-- Implement the sorting algorithm using **recursion** instead of loops.
-- Analyze and print the number of comparisons and swaps performed during the sorting process.
-
 
